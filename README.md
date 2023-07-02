@@ -1,4 +1,4 @@
-# bootcamp_project
+# Летняя практика 2023, Сафронов Александр
 
 A new Flutter project.
 
