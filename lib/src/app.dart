@@ -10,7 +10,12 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.indigo),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        useMaterial3: true,
+        fontFamily: 'Segoe UI',
+      ),
       home: ChatsPage(
         chats: chats,
       ),
