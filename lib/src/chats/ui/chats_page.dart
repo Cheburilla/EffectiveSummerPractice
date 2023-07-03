@@ -20,7 +20,13 @@ class ChatsPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.black26,
         title: const Text('TextPlain Messenger'),
-        leading: const Icon(Icons.menu),
+        leading: IconButton(
+          icon: const Icon(Icons.menu),
+          onPressed: () {
+            ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Меню')));
+          },
+        ),
         actions: [
           IconButton(
               icon: const Icon(Icons.search),
