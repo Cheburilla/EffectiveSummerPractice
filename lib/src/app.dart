@@ -11,7 +11,11 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.indigo),
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        useMaterial3: true,
+        fontFamily: 'Segoe UI',
+      ),
       home: ChatsPage(
         chats: chats,
       ),
