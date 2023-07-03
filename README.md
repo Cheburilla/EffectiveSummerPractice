@@ -1,16 +1,3 @@
 # Летняя практика 2023, Сафронов Александр
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Экран мессенджера напоминает VK Messenger с темной темой. Разрабатывал в VS Code с предпросмотром в Microsoft Edge в режиме разработчика, Android Studio требовал очень много памяти. После создания закинул .apk на телефон, работает отлично. Практикой доволен, но материалы с буткемпа вообще не зашли, удобнее самому по доке искать.
